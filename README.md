@@ -28,7 +28,7 @@ Student.csv: The primary dataset utilized for the analysis is the "Student.csv" 
 
 ### Analysis process
 
-In the data analysis process phase, we performed tasks such as:
+In the data analysis process phase, I performed tasks such as:
 1. Loading necessary libraries and importing the data from a CSV file
 2. Printing the first few rows of the data for an initial inspection
 3. Printing summary statistics for all columns to understand the data distribution
