@@ -3,7 +3,7 @@
 ### Project Overview
 ---
 
-This project aims to provide insightful analysis of student performance, parental occupations, and attendance patterns within a local school district. By utilizing collected data, we aim to address key questions such as how students are performing in their math classes, what students’ parents do for work, and how often students are absent from school.
+This project aims to provide an insightful analysis of student performance, parental occupations, and attendance patterns within a local school district. By utilizing collected data, we aim to address key questions such as how students are performing in their math classes, what students’ parents do for work, and how often students are absent from school.
 
 <img src="Screenshot_20-7-2024_234117_www.codecademy.com.jpeg" width="230" /> <img src="Screenshot_20-7-2024_234148_www.codecademy.com.jpeg" width="230" /> <img src="Screenshot_20-7-2024_23418_www.codecademy.com.jpeg" width="230" /> <img src="Screenshot_20-7-2024_23423_www.codecademy.com.jpeg" width="230" />
 
@@ -24,7 +24,7 @@ Student.csv: The primary dataset utilized for the analysis is the "Student.csv" 
 
 - Dataset - [Student.csv](students.csv)
 
-- Python - programing insights by implemeting and utalizing python libraries such as matplotlib and seaborn
+- Python - programming insights by implementing and utilizing python libraries such as matplotlib and seaborn
 
 ### Analysis process
 
@@ -119,11 +119,11 @@ plt.clf()
 ### Results
 
 My findings are summarized as follows:
-1. Using the data and visuals provided, the overall math grades were not the best of thier acedemic performance, Due to the 25% and 75% quartile of the grade of our boxplot results hovering around a little over 50%.
-2. Analyzing father and mother occupations for students, ive concluded mohters and fathers occupations falled into the "other" category.
-3. While overlooking student absence data, the overwhelming majority of students have 0 absencse and the amount proceeding that decreases at a significant rate.
+1. Using the data and visuals provided, the overall math grades were not the best of their academic performance. The 25% and 75% quartiles of the grade of our boxplot results hovered around a little over 50%.
+2. Analyzing father and mother occupations for students, I've concluded that mothers' and fathers' occupations fall into the "other" category.
+3. While overlooking student absence data, the overwhelming majority of students have 0 absences, and the amount proceeding decreases at a significant rate.
 
 ### References
 
-- Project origin - [Codecademy](https://www.codecademy.com/projects/practice/eda-students-project) 
+- Project - [Codecademy](https://www.codecademy.com/projects/practice/eda-students-project) 
 
