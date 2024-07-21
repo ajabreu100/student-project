@@ -121,8 +121,7 @@ plt.clf()
 My findings are summarized as follows:
 1. Using the data and visuals provided, the overall math grades were not the best of thier acedemic performance, Due to the 25% and 75% quartile of the grade of our boxplot results hovering around a little over 50%.
 3. Analyzing father and mother occupations for students, ive concluded mohters and fathers occupations falled into the "other" category.
-4. The other top states registered under the Washington DOL include California, Virginia, and Maryland.
-
+4. While overlooking student absence data, the overwhelming majority of students have 0 absencse and the amount proceeding that decreases at a significant rate.
 ### Recommendations
 
 Based on the results formulated from the analysis:
