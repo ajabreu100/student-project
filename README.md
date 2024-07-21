@@ -18,17 +18,17 @@ This project aims to provide an insightful analysis of student performance, pare
 
 ### Data Sources
 
-Student.csv: The primary dataset utilized for the analysis is the "Student.csv" file, which contains student information, including address, absences, mother's job, father's job, and math grade.
+Student.csv: The primary dataset utilized for the analysis is the "Student.csv" file, which contains student information, including address, absences, mother's and father's jobs, and math grades.
 
 ### Tools
 
 - Dataset - [Student.csv](students.csv)
 
-- Python - programming insights by implementing and utilizing python libraries such as matplotlib and seaborn
+- Python - Programming insights by implementing and utilizing Python libraries such as Matplotlib and Seaborn
 
 ### Analysis process
 
-In the data cleaning process phase, we performed tasks such as:
+In the data analysis process phase, we performed tasks such as:
 1. Loading necessary libraries and importing the data from a CSV file
 2. Printing the first few rows of the data for an initial inspection
 3. Printing summary statistics for all columns to understand the data distribution
@@ -119,9 +119,9 @@ plt.clf()
 ### Results
 
 My findings are summarized as follows:
-1. Using the data and visuals provided, the overall math grades were not the best of their academic performance. The 25% and 75% quartiles of the grade of our boxplot results hovered around a little over 50%.
+1. Using the data and visuals provided, the overall math grades did not represent their academic performance well. The 25th and 75th quartiles of the math grades in our boxplot results hovered around a little over 50%.
 2. Analyzing father and mother occupations for students, I've concluded that mothers' and fathers' occupations fall into the "other" category.
-3. While overlooking student absence data, the overwhelming majority of students have 0 absences, and the amount proceeding decreases at a significant rate.
+3. While overlooking student absence data, the overwhelming majority of students have 0 absences, and the number of students having absences preceding 0 decreases significantly.
 
 ### References
 
