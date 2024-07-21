@@ -7,6 +7,14 @@ This project aims to provide insightful analysis of student performance, parenta
 
 <img src="Screenshot_20-7-2024_234117_www.codecademy.com.jpeg" width="230" /> <img src="Screenshot_20-7-2024_234148_www.codecademy.com.jpeg" width="230" /> <img src="Screenshot_20-7-2024_23418_www.codecademy.com.jpeg" width="230" /> <img src="Screenshot_20-7-2024_23423_www.codecademy.com.jpeg" width="230" />
 
+#### Data Schema
+
+- address: the location of the student’s home ('U' for urban and 'R' for rural)
+- absences: the number of times the student was absent during the school year
+- Mjob: the student’s mother’s job industry
+- Fjob: the student’s father’s job industry
+- math_grade: the student’s final grade in math, ranging from 0 to 20
+
 
 ### Data Sources
 
@@ -16,7 +24,7 @@ Student.csv: The primary dataset utilized for the analysis is the "Student.csv" 
 
 - Dataset - [Student.csv](students.csv)
 
-- Python - programing insights by implemeting and utalizing python libraries such as pandas, numpy, matplotlib, and seaborn
+- Python - programing insights by implemeting and utalizing python libraries such as matplotlib and seaborn
 
 ### Analysis process
 
@@ -111,9 +119,9 @@ plt.clf()
 ### Results
 
 My findings are summarized as follows:
-1. King County had the highest registration count under the Washington DOL.
-2. The vehicles in the top-performing EV range include the Chevy Bolt, Hyundai Kona, and Tesla Model S.
-3. The other top states registered under the Washington DOL include California, Virginia, and Maryland.
+1. Using the data and visuals provided, the overall math grades were not the best of thier acedemic performance, Due to the 25% and 75% quartile of the grade of our boxplot results hovering around a little over 50%.
+3. Analyzing father and mother occupations for students, ive concluded mohters and fathers occupations falled into the "other" category.
+4. The other top states registered under the Washington DOL include California, Virginia, and Maryland.
 
 ### Recommendations
 
