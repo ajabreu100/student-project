@@ -10,26 +10,37 @@ This project aims to provide insightful analysis of student performance, parenta
 
 ### Data Sources
 
-EV Data: The primary dataset utilized for the analysis is the "Cleaned Data" file, which represents the cleaned and refined dataset, and the "Raw data" link, which directs access to the raw, untouched imported dataset.
+Student.csv: The primary dataset utilized for the analysis is the "Student.csv" file, which contains student information, including address, absences, mother's job, father's job, and math grade.
 
 ### Tools
 
--Excel - Data Cleaning ([Cleaned Data](cleaned_ev_data.csv), [Raw data](https://catalog.data.gov/dataset/electric-vehicle-population-data/resource/fa51be35-691f-45d2-9f3e-535877965e69))
+-Dataset - [Student.csv](students.csv)
 
--SQLite Studio - Data Analysis
+-Python - programing insights implemeting and utalizing python libraries such as pandas, numpy, matplotlib, and seaborn
 
--Tableau - Creating Visualizations
-
-
-### Data Cleaning/ Preparation
+### Analysis process
 
 In the data cleaning process phase, we performed tasks such as:
-1. Loading CSV file into Excel, along with an initial inspection
-2. Filling any missing values that may not have been completed
-3. Examining data for any duplicate values
-4. Transforming all text casing to proper case
-5. Trimming unnecessary data or spaces
-6. Formating column titles
+Loading necessary libraries and importing the data from a CSV file
+Printing the first few rows of the data for an initial inspection
+Printing summary statistics for all columns to understand the data distribution
+Calculating key statistics for the ‘math_grade’ column:
+Mean
+Median
+Mode
+Range
+Standard deviation
+Mean Absolute Deviation (MAD)
+Creating visualizations to explore the data:
+Histogram of math grades
+Box plot of math grades
+Analyzing categorical data:
+Calculating the number and proportion of students with mothers in each job category
+Creating bar and pie charts for the ‘Mjob’ column
+Additional visualizations:
+Pie chart of students’ addresses
+Histogram of absences
+Bar chart of fathers’ job categories
 
 ### Exploratory Data Analysis
 
@@ -96,7 +107,7 @@ students.Mjob.value_counts().plot.pie()
 plt.show()
 plt.clf()
 
-#Extras
+#Extra
 students.address.value_counts().plot.pie()
 plt.show()
 plt.clf()
@@ -129,5 +140,9 @@ Unfortunately, some rows have missing values that could not be accounted for in 
 
 ### References
 
-My raw data source: [Click here](https://catalog.data.gov/dataset/electric-vehicle-population-data/resource/fa51be35-691f-45d2-9f3e-535877965e69)
+Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. 
+
+Irvine, CA: University of California, School of Information and Computer Science. [http://archive.ics.uci.edu/ml/datasets/Student+Performance]
+
+Paulo Cortez, University of Minho, Guimarães, Portugal, [http://www3.dsi.uminho.pt/pcortez]
 
