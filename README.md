@@ -120,23 +120,10 @@ plt.clf()
 
 My findings are summarized as follows:
 1. Using the data and visuals provided, the overall math grades were not the best of thier acedemic performance, Due to the 25% and 75% quartile of the grade of our boxplot results hovering around a little over 50%.
-3. Analyzing father and mother occupations for students, ive concluded mohters and fathers occupations falled into the "other" category.
-4. While overlooking student absence data, the overwhelming majority of students have 0 absencse and the amount proceeding that decreases at a significant rate.
-### Recommendations
-
-Based on the results formulated from the analysis:
-
-The counties of King, Snohomish, and Pierce have the highest chance of electric vehicle-related engagement.
-Focusing on those areas will increase the likelihood of engagement, as EVs are exponentially more prevalent in these regions.
-
-### Limitations
-Unfortunately, some rows have missing values that could not be accounted for in certain calculations. Though the number of NULL values wasn't large, there is still data missing from our overall findings. 
+2. Analyzing father and mother occupations for students, ive concluded mohters and fathers occupations falled into the "other" category.
+3. While overlooking student absence data, the overwhelming majority of students have 0 absencse and the amount proceeding that decreases at a significant rate.
 
 ### References
 
-Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. 
-
-Irvine, CA: University of California, School of Information and Computer Science. [http://archive.ics.uci.edu/ml/datasets/Student+Performance]
-
-Paulo Cortez, University of Minho, Guimarães, Portugal, [http://www3.dsi.uminho.pt/pcortez]
+- Project origin - [Codecademy](https://www.codecademy.com/projects/practice/eda-students-project) 
 
