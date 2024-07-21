@@ -16,7 +16,7 @@ Student.csv: The primary dataset utilized for the analysis is the "Student.csv" 
 
 -Dataset - [Student.csv](students.csv)
 
--Python - programing insights implemeting and utalizing python libraries such as pandas, numpy, matplotlib, and seaborn
+-Python - programing insights by implemeting and utalizing python libraries such as pandas, numpy, matplotlib, and seaborn.
 
 ### Analysis process
 
