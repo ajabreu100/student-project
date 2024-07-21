@@ -21,35 +21,22 @@ Student.csv: The primary dataset utilized for the analysis is the "Student.csv" 
 ### Analysis process
 
 In the data cleaning process phase, we performed tasks such as:
-Loading necessary libraries and importing the data from a CSV file
-Printing the first few rows of the data for an initial inspection
-Printing summary statistics for all columns to understand the data distribution
-Calculating key statistics for the ‘math_grade’ column:
-Mean
-Median
-Mode
-Range
-Standard deviation
-Mean Absolute Deviation (MAD)
-Creating visualizations to explore the data:
-Histogram of math grades
-Box plot of math grades
-Analyzing categorical data:
-Calculating the number and proportion of students with mothers in each job category
-Creating bar and pie charts for the ‘Mjob’ column
-Additional visualizations:
-Pie chart of students’ addresses
-Histogram of absences
-Bar chart of fathers’ job categories
+1. Loading necessary libraries and importing the data from a CSV file
+2. Printing the first few rows of the data for an initial inspection
+3. Printing summary statistics for all columns to understand the data distribution
+4. Calculating key statistics for the ‘math_grade’ column: Mean, Median, Mode, Range, Standard deviation, Mean Absolute Deviation (MAD)
+5. Creating visualizations to explore the data
+6. Analyzing categorical data
 
 ### Exploratory Data Analysis
 
-##### Main Question
--Which county of Washington state contains the most EV vehicle registrations
-##### Bonus Questions
--Which EV vehicles contain the highest driving range
+##### Questions
 
--What other states are registered in the Washington DOL
+- How are students performing in their math classes?
+
+- What do students’ parents do for work?
+
+- How often are students absent from school?
 
 ### Data Analysis
 
